@@ -1,0 +1,42 @@
+
+
+
+
+
+.berry-container {
+    position: absolute;
+    
+    min-height: 33.13rem;
+    width: 100%;
+    background: url(../images/bg-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+}
+
+.berry__content {
+    display: flex;
+    position: absolute;
+    /* background: rgba(190, 199, 187, 0.5); */
+    filter: brightness(0.9) sepia(50%);
+    width: 100%;
+    height: 100%;
+}
+
+.berry__space {
+    order: 1;
+    width: 50%;
+    height: 100%;
+}
+
+.berry__form-container {
+    width: 50%;
+    height: 100%;
+    /* filter: brightness(0.1); */
+    /* background: linear-gradient(to right, rgba(53, 53, 53, 0.5) 15%, transparent); */
+}
+
+.berry__text {
+    text-align: center;
+    vertical-align: middle;
+}
