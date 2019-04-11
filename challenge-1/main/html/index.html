@@ -20,30 +20,150 @@
                 <li class="nav__item">Sign In</li>
             </ul>
         </nav>
-        
+
     </header>
     <main class="main-content">
         <div class="berry-container">
-           
+
             <div class="berry__content">
                     <div class="berry__space">
 
                     </div>
-                    
+
                     <div class="berry__form-container">
                             <div class="berry__text">
-                                    <h1>Email</h1>
-                                    <h1>Sign Up!</h1>
-                                    
-                            </div> 
+                                    <h1>Learning how to bake has never been easier!</h1>
+                                    <input class="berry__text-input" type="email" value="Enter your email..." onblur="fillField(this,'Enter your email...');" onfocus="clearField(this,'Enter your email...');"/>
+                                    <input id="berry-submit" type="submit" value="Sign Me Up!">
+
+                            </div>
                     </div>
             </div>
         </div>
+        <div class="perks__container">
+            <div class="perks__item">
+            	<div class="perks__logo">
+                   <div class="perks__logo-image">
+                     <svg width="80" height="80">
+                                <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                        <image xlink:href="https://image.flaticon.com/icons/svg/45/45351.svg" src="../images/recipe.svg" width="90" height="90"/>
+                     </svg>
+                   </div>
+            	</div>
+            	<div class="perks__text">
+                    <h1>Free Recipes</h1>
+                    <p>Our recipes are accessible to everyone!</p>
+            	</div>
+            </div>
+            <div class="perks__item">
+            	<div class="perks__logo">
+                    <div class="perks__logo-image">
+                     <svg width="80" height="80">
+                                <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                        <image xlink:href="https://image.flaticon.com/icons/svg/561/561127.svg" src="../images/mail-2.svg" width="90" height="90"/>
+                     </svg>
+                   </div>
+            	</div>
+            	<div class="perks__text">
+                    <h1>Personalized Emails</h1>
+                    <p>We only share information catered to your interests!</p>
+            	</div>
+            </div>
+            <div class="perks__item">
+            	<div class="perks__logo">
+                   <div class="perks__logo-image">
+                      <svg width="80" height="80">
+                        <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                        <image xlink:href="https://image.flaticon.com/icons/svg/25/25360.svg" src="../images/community.svg" width="90" height="90"/>
+                       </svg>
+                   </div>
+            	</div>
+            	<div class="perks__text">
+                    <h1>Friendly Community</h1>
+                    <p>Communicate with your fellow bakers on our forums!</p>
+            	</div>
+            </div>
+        </div>
+        <div class="samples__title-container">
+                <h1 id="samples__title">We'll Teach You How to Bake</h1>
+        </div>
+        <div class="samples__container">
+          <div class="samples__item">
+             <div class="sample" id="sample-1">
+
+             </div>
+             <div class="sample" id="sample-2">
+                <div class="sample__text">  
+                  <h1>Cakes</h1>
+                  <p>We have multiple cake recipes perfect for various ocassions! Whether it's someone's birthday, a holiday, or any other event, we have just the right thing for you!</p>
+                </div>
+             </div>
+          </div>
+          <div class="samples__item">
+              <div class="sample" id="sample-3">
+
+              </div>
+              <div class="sample" id="sample-4">
+                <div class="sample__text">  
+                  <h1>Cookies</h1>
+                  <p></p>
+                </div>
+              </div>
+           </div>
+           <div class="samples__item">
+              <div class="sample" id="sample-5">
+
+              </div>
+              <div class="sample" id="sample-6">
+                <div class="sample__text">  
+                  <h1>Cupcakes</h1>
+                  <p></p>
+                </div>
+              </div>
+           </div>
+        </div>
+
+        <div class="testimonial__container">
+            <div class="testimonial__item">
+            	<div class="testimonial__logo">
+                   <div class="testimonial__logo-image">
+                     <img src="../images/shnitzel.png" alt="shnitzel" height="7rem" width="7rem">
+                   </div>
+            	</div>
+            	<div class="testimonial__text">
+                    <h1>Free Recipes</h1>
+                    <p>Our recipes are accessible to everyone!</p>
+            	</div>
+            </div>
+            <div class="testimonial__item">
+            	<div class="testimonial__logo">
+                    <div class="testimonial__logo-image">
+                      <img src="../images/cookie-monster-2.png" alt="cookie-monster">
+                   </div>
+            	</div>
+            	<div class="testimonial__text">
+                    <h1>Personalized Emails</h1>
+                    <p>We only share information catered to your interests!</p>
+            	</div>
+            </div>
+            <div class="testimonial__item">
+            	<div class="testimonial__logo">
+                   <div class="testimonial__logo-image">
+                      <img src="../images/swedish-chef.png" alt="swedish-chef">
+                   </div>
+            	</div>
+            	<div class="testimonial__text">
+                    <h1>Friendly Community</h1>
+                    <p>Communicate with your fellow bakers on our forums!</p>
+            	</div>
+            </div>
+        </div>
+    
     </main>
 
+    <footer>
 
-
-
+    </footer> 
 
 
 
