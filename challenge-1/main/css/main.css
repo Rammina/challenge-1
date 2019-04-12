@@ -231,7 +231,7 @@ input[type="text"], textarea {
 
 .samples__container {
     min-height: 30rem;
-    height: 160rem;
+    height: 140rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -239,6 +239,8 @@ input[type="text"], textarea {
     text-align: center;
     vertical-align: middle;
     padding-top: 2rem;
+    background-color: rgb(220, 240, 240, 0.9);
+
 }
 
 .samples__item {
@@ -264,6 +266,8 @@ input[type="text"], textarea {
     text-align: center;
     line-height: 2rem;
     margin: 0 auto;
+    padding-top: 2.5rem;
+    background-color: rgb(220, 240, 240, 0.9);
 }
 
 #samples__title {
@@ -274,6 +278,7 @@ input[type="text"], textarea {
     left: 5%;
     right: 5%;
     color: #02292e;
+    text-shadow: 1px 1px 0px rgba(4, 15, 23, 0.623);
 }
 
 #sample-1 {
@@ -346,7 +351,8 @@ input[type="text"], textarea {
     /* border: 1px solid black; */
     text-align: center;
     vertical-align: middle;
-    padding: 0;
+    padding: 2rem 0;
+
 }
 
 .testimonial__item {
@@ -363,15 +369,15 @@ input[type="text"], textarea {
 }
 
 .testimonial__item h1 {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
     /* line-height: 1.8rem; */
     text-shadow: 1px 1px 0px rgba(4, 15, 23, 0.623);
 }
 
 .testimonial__item p {
     margin-top: 0.4rem;
-    font-size: 1.3rem;
-    line-height: 1.7rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
 .testimonial__logo {
@@ -382,8 +388,8 @@ input[type="text"], textarea {
 }
 
 .testimonial__logo-image {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     vertical-align: bottom;
     text-align: center;
     border: solid 2px rgba(0, 0, 0, 0.55);
@@ -395,8 +401,8 @@ input[type="text"], textarea {
 }
 
 .testimonial__logo img {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     vertical-align: bottom;
     text-align: center;
     
