@@ -60,7 +60,7 @@ button {
     display: inline;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.65rem;
-    text-shadow: 1px 1px 1.5px #3a0710e6;
+    text-shadow: 1px 1px 1.5px #3a0710e6, -1px -1px 0px rgba(255, 255, 255, 0.4);
 
 }
 
@@ -125,6 +125,10 @@ button {
 .footer__link a {
     text-decoration: none;
     color: #490e24;
+}
+
+.footer__link a:hover {
+    opacity: 0.8;
 }
 
 .footer__text p {

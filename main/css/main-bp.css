@@ -84,7 +84,10 @@
 			
 			margin: 0 auto;
 		}
-	
+
+		#samples__title {
+			font-size: 3rem;
+		}	
 		.sample {
 			height: 33.33%;
 			width: 50%;
