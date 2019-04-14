@@ -295,10 +295,10 @@ input[type="text"], textarea {
 
 #sample-3 {
     width: 100%;
-    background: url(../images/cookies.jpg);
+    background: url(../images/cute-cookie.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 50%;
+    background-position: 51% 50%;
 }
 
 #sample-5 {
