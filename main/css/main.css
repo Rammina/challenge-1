@@ -11,7 +11,7 @@ ul {
     position: relative;
     min-height: 33.13rem;
     width: 100%;
-    background: url(../images/bg-9-small.png);
+    background: url(../images/bg-9.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60% 70%;
@@ -54,7 +54,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    top: 5%;
+    top: 2%;
     margin: 0 auto;
     left: 5%;
     right: 5%;
@@ -82,7 +82,7 @@ ul {
     width: 85%;
     max-width: 40.625rem;
     padding-left: 0.5rem;
-    height: 2.5rem;
+    height: 3rem;
     font-size: 1.2rem;
     color: rgb(85, 54, 63);
     border: 1.5px solid rgba(122, 73, 9, 0.603);
@@ -440,9 +440,10 @@ input[type="text"], textarea {
 .signup-container.second-signup {
     
     min-height: 25rem;
+    background: url(../images/bg-9-small.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 60% 50%;
+    background-position: 60% 90%;
 }
 
 #second-signup {
@@ -458,7 +459,7 @@ input[type="text"], textarea {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    top: 5%;
+    top: 2%;
     margin: 0 auto;
     left: 5%;
     right: 5%;
@@ -486,7 +487,7 @@ input[type="text"], textarea {
     width: 85%;
     max-width: 40.625rem;
     padding-left: 0.5rem;
-    height: 2.5rem;
+    height: 3rem;
     font-size: 1.2rem;
     color: rgb(85, 54, 63);
     border: 1.5px solid rgba(122, 73, 9, 0.603);
@@ -514,7 +515,7 @@ input[type="text"], textarea {
     display: block;
     text-align: center;
     padding: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     min-width: 15.875rem;
     width: 85%;
     max-width: 40.625rem;

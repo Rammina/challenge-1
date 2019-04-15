@@ -66,7 +66,7 @@ button {
 
 .nav__items {
     display: inline;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     padding: 0;
 }
 
@@ -74,7 +74,7 @@ button {
     display: inline;
     /* background-color: rgba(219, 244, 251, 0.9); */
     background-color: rgb(255, 240, 222);
-    padding: 0.45rem 0.9rem;
+    padding: 0.64rem 0.9rem;
     border-radius: 7.5px;
     cursor: pointer;
     border: 1px solid #3a07101e;
