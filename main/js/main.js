@@ -3,13 +3,13 @@
 // Homepage objects
 
 let homepage = {
-	emailInput: document.querySelector(".berry__text-input"),
-	emailInputText: document.querySelector(".berry__text-input").value,
-	emailClick: false,
-	signUp: document.querySelector("#berry-submit"),
-	signUpValid:  false
-
-
+	emailInput: document.querySelector(".signup__text-input"),
+	emailInputText: document.querySelector(".signup__text-input").value,
+	emailInputTwo: document.querySelector(".signup__text-input-2"),
+	emailInputTextTwo: document.querySelector(".signup__text-input-2").value,
+	signUp: document.querySelector("#signup-submit"),
+	signUpTwo: document.querySelector("#signup-submit-2"),
+	
 }
 
 // Functions
@@ -27,29 +27,44 @@ function clearField(input,val) {
          input.value="";
 };
 
-function validateSignUp() {
-	if(homepage.emailInput.matches(':invalid')) {
-		homepage.signUp.classList.add("deny");
+function validateSignUp(inputbox, submitbutton) {
+	if(inputbox.matches(':invalid')) {
+		submitbutton.classList.add("deny");
 
 	}
-	else if(homepage.emailInput.matches(':valid')) {
-		homepage.signUp.classList.remove("deny");
+	else if(inputbox.matches(':valid')) {
+		submitbutton.classList.remove("deny");
 
 	}
 
 }
 
-validateSignUp();
+
+
+validateSignUp(homepage.emailInput, homepage.signUp);
+validateSignUp(homepage.emailInputTwo, homepage.signUpTwo);
 
 homepage.emailInput.addEventListener("focus", function(){
-	validateSignUp();
+	validateSignUp(homepage.emailInput, homepage.signUp);
 });
 
 homepage.emailInput.addEventListener("blur", function(){
-	validateSignUp();
+	validateSignUp(homepage.emailInput, homepage.signUp);
 });
 
 homepage.signUp.addEventListener("mouseover", function(){
-	validateSignUp();
+	validateSignUp(homepage.emailInput, homepage.signUp);
 });
 
+
+homepage.emailInputTwo.addEventListener("focus", function(){
+	validateSignUp(homepage.emailInputTwo, homepage.signUpTwo);
+});
+
+homepage.emailInputTwo.addEventListener("blur", function(){
+	validateSignUp(homepage.emailInputTwo, homepage.signUpTwo);
+});
+
+homepage.signUpTwo.addEventListener("mouseover", function(){
+	validateSignUp(homepage.emailInputTwo, homepage.signUpTwo);
+});

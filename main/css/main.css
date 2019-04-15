@@ -6,7 +6,7 @@ ul {
     -webkit-padding-start: 0;
 }
 
-.berry-container {
+.signup-container {
     order: 0;
     position: relative;
     min-height: 33.13rem;
@@ -17,7 +17,7 @@ ul {
     background-position: 60% 70%;
 }
 
-.berry__content {
+.signup__content {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
@@ -27,13 +27,13 @@ ul {
     height: 100%;
 }
 
-.berry__space {
+.signup__space {
     order: 1;
     width: 100%;
     height: 40%;
 }
 
-.berry__form-container {
+.signup__form-container {
     order: 0;
     width: 100%;
     height: 60%;
@@ -45,7 +45,7 @@ ul {
     background: linear-gradient(to bottom, rgba(170, 140, 168, 0.5), transparent);
 }
 
-.berry__text {
+.signup__text {
     position: absolute;
     text-align: left;
     vertical-align: middle;
@@ -61,13 +61,13 @@ ul {
     text-shadow: 1px 1px 2px #190303, -1px -1px rgba(255, 200, 200, 0.4);
 }
 
-.berry__text h1 {
+.signup__text h1 {
     text-align: center;
     min-width: 15.875rem;
     max-width: 45.625rem;
 }
 
-.berry__text label {
+.signup__text label {
     display: inline-block;
     text-align: left;
     font-size: 1.35rem;
@@ -75,7 +75,7 @@ ul {
 
 }
 
-.berry__text-input {
+.signup__text-input {
     display: block;
     text-align: left;
     min-width: 15.875rem;
@@ -89,18 +89,18 @@ ul {
     border-radius: 7px;
 }
 
-.berry__text-input:valid {
+.signup__text-input:valid {
     border: 1.5px solid green;
     background-color: rgba(0, 255, 0, 0.4);
 }
 
-.berry__text-input:invalid {
+.signup__text-input:invalid {
     border: 1.5px solid rgba(122, 73, 9, 1);
     background-color: rgba(200, 0, 0, 0.4);
 }
 
 
-.berry__text-input:focus {
+.signup__text-input:focus {
     border: 2px solid rgba(122, 73, 9, 1);
 }
 
@@ -114,7 +114,7 @@ input[type="text"], textarea {
 
 }
 
-#berry-submit {
+#signup-submit {
     display: block;
     text-align: center;
     padding: 0.5rem;
@@ -131,7 +131,7 @@ input[type="text"], textarea {
     cursor: pointer;
 }
 
-#berry-submit.deny{
+#signup-submit.deny{
     background-color: rgba(90, 90, 90, 0.5);
     cursor: not-allowed;
 }
@@ -437,7 +437,7 @@ input[type="text"], textarea {
     vertical-align: middle;
 }
 
-.berry-container.second-signup {
+.signup-container.second-signup {
     
     min-height: 25rem;
     background-size: cover;
@@ -447,4 +447,87 @@ input[type="text"], textarea {
 
 #second-signup {
     font-size: 1.61rem;
+}
+
+.signup__text-2 {
+    position: absolute;
+    text-align: left;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    margin: 0 auto;
+    left: 5%;
+    right: 5%;
+    text-shadow: 1px 1px 2px #190303, -1px -1px rgba(255, 200, 200, 0.4);
+}
+
+.signup__text-2 h1 {
+    text-align: center;
+    min-width: 15.875rem;
+    max-width: 45.625rem;
+}
+
+.signup__text-2 label {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.35rem;
+    margin-bottom: 0.75rem;
+
+}
+
+.signup__text-input-2 {
+    display: block;
+    text-align: left;
+    min-width: 15.875rem;
+    width: 85%;
+    max-width: 40.625rem;
+    padding-left: 0.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    color: rgb(85, 54, 63);
+    border: 1.5px solid rgba(122, 73, 9, 0.603);
+    border-radius: 7px;
+}
+
+.signup__text-input-2:valid {
+    border: 1.5px solid green;
+    background-color: rgba(0, 255, 0, 0.4);
+}
+
+.signup__text-input-2:invalid {
+    border: 1.5px solid rgba(122, 73, 9, 1);
+    background-color: rgba(200, 0, 0, 0.4);
+}
+
+
+.signup__text-input-2:focus {
+    border: 2px solid rgba(122, 73, 9, 1);
+}
+
+
+
+#signup-submit-2 {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    min-width: 15.875rem;
+    width: 85%;
+    max-width: 40.625rem;
+    font-size: 1.5rem;
+    border: rgba(66, 64, 53, 0.239) solid 1.5px;
+    border-radius: 5px;
+    color: #490e24;
+    text-shadow: 1px 1px #190303;
+    font-family: 'Helvetica', sans-serif;
+    cursor: pointer;
+}
+
+#signup-submit-2.deny{
+    background-color: rgba(90, 90, 90, 0.5);
+    cursor: not-allowed;
 }
